@@ -19,7 +19,7 @@ class LocationsRepository(
 
 interface LocationPersistenceSource {
 
-    fun getPersistedLocations(): List<Location>
+    fun getPersistedLocations():  List<Location>
     fun saveNewLocation(location: Location)
 
 }
